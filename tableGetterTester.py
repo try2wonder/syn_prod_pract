@@ -1,3 +1,4 @@
+
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -30,9 +31,7 @@ def getTable(url):
             tableData = []
             maxColumns = 0
             
-
-            #Берём номера колонок потому что вот так в синергии таблицы устроены
-            for unit in table.find_all('tr')[1].find_all('td'):
+            for _ in table.find_all('tr')[1].find_all('td'):
                 maxColumns += 1
 
             #Берём заголовки
