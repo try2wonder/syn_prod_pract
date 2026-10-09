@@ -1,0 +1,683 @@
+{
+    "url": "https://synergyuniversity.ru/sveden/inter",
+    "headers": [
+        "№ п/п",
+        "Государство",
+        "Наименование организации",
+        "Реквизиты договора (наименование, дата, номер, срок действия)"
+    ],
+    "rows": [
+        [
+            "1",
+            "Пакистан",
+            "Karachi Institute of Economics and Technology",
+            "A Memorandum of Understanding, 18.11.2022, б/н, бессрочный"
+        ],
+        [
+            "2",
+            "Китай",
+            "China Huaxia Heritage Foundation Special Fund for Yao and Shun",
+            "A Memorandum of Understanding, 20.10.2022, б/н, бессрочный"
+        ],
+        [
+            "3",
+            "Индия",
+            "BSSS Institute of Advanced Studies",
+            "Memorandum of Understanding, 22.09.2022, б/н, бессрочный"
+        ],
+        [
+            "4",
+            "Сомали",
+            "Jazeera University",
+            "A Memorandum of Understanding, 07.07.2022, б/н, бессрочный"
+        ],
+        [
+            "5",
+            "Индия",
+            "Vishwakarma Group",
+            "Memorandum of Understanding, 08.06.2022, б/н, бессрочный"
+        ],
+        [
+            "6",
+            "Индия",
+            "Saraswati Group of Colleges",
+            "Memorandum of Understanding, 06.06.2022, б/н, бессрочный"
+        ],
+        [
+            "7",
+            "Швейцария",
+            "BERINGOFF International Academy of Law",
+            "A Memorandum of Understanding, 30.05.2022, б/н, бессрочный"
+        ],
+        [
+            "8",
+            "Португалия",
+            "Instituto Politecnico do Porto",
+            "Memorandum of Understanding, 21.01.2022, б/н, бессрочный"
+        ],
+        [
+            "9",
+            "Вьетнам",
+            "FPT University",
+            "A Memorandum of Understanding, 11.05.2022, б/н, бессрочный"
+        ],
+        [
+            "10",
+            "Шри-Ланка",
+            "Spectrum Institute of Science & Technology",
+            "A Memorandum of Understanding, 26.04.2022, б/н, бессрочный"
+        ],
+        [
+            "11",
+            "Египет",
+            "Delta University for Science and Technology",
+            "A Memorandum of Understanding, 04.04.2022, б/н, бессрочный"
+        ],
+        [
+            "12",
+            "Китай",
+            "Zhengzhou University of Industry Technology",
+            "A Memorandum of Understanding, 01.04.2022, б/н, бессрочный"
+        ],
+        [
+            "13",
+            "Германия",
+            "Academy of Languages gGmbH",
+            "Academic Cooperation Agreement, 15.03.2022, б/н, бессрочный"
+        ],
+        [
+            "14",
+            "Корея",
+            "Sun Moon University",
+            "A Memorandum of Understanding, 15.03.2022, б/н, бессрочный"
+        ],
+        [
+            "15",
+            "Малайзия",
+            "Infrastructure University Kuala Lumpur",
+            "A Memorandum of Understanding, 14.03.2022, б/н, бессрочный"
+        ],
+        [
+            "16",
+            "Испания",
+            "CESTE-International Business School",
+            "A Memorandum of Understanding, 07.02.2022, б/н, бессрочный"
+        ],
+        [
+            "17",
+            "Индия",
+            "Lok Jagruti Kendra University",
+            "A Memorandum of Understanding, 02.12.2021, б/н, бессрочный"
+        ],
+        [
+            "18",
+            "Индия",
+            "The Bhopal School of Social Sciences",
+            "A Memorandum of Understanding, 25.11.2021, б/н, бессрочный"
+        ],
+        [
+            "19",
+            "Индия",
+            "The Bhopal School of Social Sciences",
+            "A Memorandum of Understanding, 24.06.2022, б/н, бессрочный"
+        ],
+        [
+            "20",
+            "Непал",
+            "International College of Hospitallity Management",
+            "A Memorandum of Understanding, 21.11.2021, б/н, бессрочный"
+        ],
+        [
+            "21",
+            "Англия",
+            "Xenophon College London Limited",
+            "A Memorandum of Understanding, 03.11.2021, б/н, бессрочный"
+        ],
+        [
+            "22",
+            "Индия",
+            "Bharata Mata College",
+            "A Memorandum of Understanding, 03.11.2021, б/н, бессрочный"
+        ],
+        [
+            "23",
+            "Китай",
+            "Hebei International Studies University",
+            "A Memorandum of Understanding, 30.09.2021, б/н, бессрочный"
+        ],
+        [
+            "24",
+            "Америка",
+            "Encomprass International LLC, DBA College For All, \"CFA\"",
+            "A Memorandum of Understanding, 09.08.2021, б/н, бессрочный"
+        ],
+        [
+            "25",
+            "Ливия",
+            "Sirte University",
+            "Memorandum of Understanding, 15.09.2021, б/н, бессрочный"
+        ],
+        [
+            "26",
+            "Индия",
+            "Fairfield Institute of Mangment and Technology",
+            "A Memorandum of Understanding, 07.09.2021, б/н, бессрочный"
+        ],
+        [
+            "27",
+            "Индия",
+            "Parul University",
+            "A Memorandum of Understanding, 26.08.2021, б/н, бессрочный"
+        ],
+        [
+            "28",
+            "Ливия",
+            "Sirte University",
+            "A Memorandum of Understanding, ожидаем подписанный Memorandum с другой стороны"
+        ],
+        [
+            "29",
+            "Индия",
+            "Swami Vivekanad Subharti University",
+            "A Memorandum of Understanding, 26.07.2021, б/н, бессрочный"
+        ],
+        [
+            "30",
+            "Марокко",
+            "Ostelea Tourism Management School Campus Rabat",
+            "A Memorandum of Understanding, 02.07.2021, б/н, бессрочный"
+        ],
+        [
+            "31",
+            "Турция",
+            "Международный фонд содействия развитию связей в области культуры, науки, образования и социальной сферы памяти А. Карлова",
+            "Меморандум о сотрудничестве, 15.06.2021, б/н, бессрочный"
+        ],
+        [
+            "32",
+            "Сербия",
+            "PRIVATNA GIMNAZIJA “Antoni M P Barili”",
+            "Меморандум о сотрудничестве, 17.05.2021, б/н, бессрочный"
+        ],
+        [
+            "33",
+            "Корея",
+            "Myongji University",
+            "Memorandum of Agreement On Student Recruitment, 19.04.2021, б/н, бессрочный"
+        ],
+        [
+            "34",
+            "Корея",
+            "Myongji University",
+            "A Memorandum of Understanding, 19.04.2021, б/н, бессрочный"
+        ],
+        [
+            "35",
+            "Индия",
+            "Kalinga Institute of Industrial Technology Deemed to be University",
+            "A Memorandum of Understanding, 28.04.2021, б/н, бессрочный"
+        ],
+        [
+            "36",
+            "Индия",
+            "Prestige Education Foundation with its proposed endeavor Prestige University",
+            "A Memorandum of Understanding, 28.04.2021, б/н, бессрочный"
+        ],
+        [
+            "37",
+            "Малайзия",
+            "Linkokwing University Of Creative Technology",
+            "A Memorandum of Understanding, 08.04.2021, б/н, бессрочный"
+        ],
+        [
+            "38",
+            "Индия",
+            "Shri Ramswaroop Memorial University",
+            "A Memorandum of Understanding, 22.03.2021, б/н, бессрочный"
+        ],
+        [
+            "39",
+            "Южная Корея",
+            "Hanyang University Erica",
+            "Student Exchange Agreement, 11.03.2021, б/н, бессрочный"
+        ],
+        [
+            "40",
+            "Южная Корея",
+            "Hanyang University Erica",
+            "A Memorandum of Understanding, 11.03.2021, б/н, бессрочный"
+        ],
+        [
+            "41",
+            "Индия",
+            "Chandigarh Group of Colleges",
+            "A Memorandum of Understanding, 11.03.2021, б/н, бессрочный"
+        ],
+        [
+            "42",
+            "Индия",
+            "Akal University",
+            "A Memorandum of Understanding, 09.03.2021, б/н, бессрочный"
+        ],
+        [
+            "43",
+            "Индия",
+            "Dr Gaur Hari Singhania Institute of Management & Research",
+            "A Memorandum of Understanding, 23.02.2021, б/н, бессрочный"
+        ],
+        [
+            "44",
+            "Индия",
+            "IES, University Bhopal",
+            "Memorandum of Understanding, 15.01.2021, б/н, бессрочный"
+        ],
+        [
+            "45",
+            "Индия",
+            "Marian International Institute of Management",
+            "A Memorandum of Understanding, 27.01.2021, б/н, бессрочный"
+        ],
+        [
+            "46",
+            "Индия",
+            "Mody University of Science and Technology",
+            "A Memorandum of Understanding, 13.07.2021, б/н, бессрочный"
+        ],
+        [
+            "47",
+            "Индия",
+            "Panjab University",
+            "Collabaration Memorandum of Understanding, 14.01.2020, б/н, бессрочный"
+        ],
+        [
+            "48",
+            "Индия",
+            "Siva Sivani Institute of Management",
+            "A Memorandum of Understanding, 29.05.2020, б/н, бессрочный"
+        ],
+        [
+            "49",
+            "Индия",
+            "Rai University",
+            "A Memorandum of Understanding, 06.06.2020, б/н, бессрочный"
+        ],
+        [
+            "50",
+            "Индия",
+            "Prestige Institute of Management and Research",
+            "A Memorandum of Understanding, 12.06.2020, б/н, бессрочный"
+        ],
+        [
+            "51",
+            "Индия",
+            "Poornima University",
+            "A Memorandum of Understanding, 26.06.2020, б/н, бессрочный"
+        ],
+        [
+            "52",
+            "Индия",
+            "Lead College of Management",
+            "A Memorandum of Understanding, 01.07.2020, б/н, бессрочный"
+        ],
+        [
+            "53",
+            "Индия",
+            "Charotar University of Science & Technology",
+            "A Memorandum of Understanding, 15.07.2020, б/н, бессрочный"
+        ],
+        [
+            "54",
+            "Индия",
+            "GL Bajaj Institute of Management & Research.PGDM Institute",
+            "A Memorandum of Understanding, 15.07.2020, б/н, бессрочный"
+        ],
+        [
+            "55",
+            "Индия",
+            "Renaissance University",
+            "A Memorandum of Understanding, 18.08.2020, б/н, бессрочный"
+        ],
+        [
+            "56",
+            "Индия",
+            "Shri Venkateshwara University",
+            "A Memorandum of Understanding, 27.10.2020, б/н, бессрочный"
+        ],
+        [
+            "57",
+            "Индия",
+            "Ignited Intellectual, Bhopal, India",
+            "A Memorandum of Understanding, 01.12.2020, б/н, бессрочный"
+        ],
+        [
+            "58",
+            "Индия",
+            "All Saints' College",
+            "A Memorandum of Understanding, 01.12.2020, б/н, бессрочный"
+        ],
+        [
+            "59",
+            "Индия",
+            "Jagran Lakecity University",
+            "A Memorandum of Understanding, 08.12.2020, б/н, бессрочный"
+        ],
+        [
+            "60",
+            "Индия",
+            "SAGE University",
+            "A Memorandum of Understanding, 14.12.2020, б/н, бессрочный"
+        ],
+        [
+            "61",
+            "Индия",
+            "Firebird Institute of Reseach",
+            "A Memorandum of Understanding, 15.12.2020, б/н, бессрочный"
+        ],
+        [
+            "62",
+            "Индия",
+            "R V Institute of Management",
+            "A Memorandum of Understanding, 16.12.2020, б/н, бессрочный"
+        ],
+        [
+            "63",
+            "Индия",
+            "Sanskriti University",
+            "A Memorandum of Understanding, весна 2020, б/н, бессрочный"
+        ],
+        [
+            "64",
+            "Индия",
+            "Jagran Institute of Management",
+            "A Memorandum of Understanding, 22.07.2020, б/н, бессрочный"
+        ],
+        [
+            "65",
+            "Индия",
+            "International School of Hospitality Management",
+            "A Memorandum of Understanding, 12.07.2020, б/н, бессрочный"
+        ],
+        [
+            "66",
+            "Индия",
+            "Graphic Era Hill University",
+            "A Memorandum of Understanding, 12.07.2020, б/н, бессрочный"
+        ],
+        [
+            "67",
+            "Индия",
+            "ITS Engineering College",
+            "A Memorandum of Understanding, 11.07.2020, б/н, бессрочный"
+        ],
+        [
+            "68",
+            "Индия",
+            "Chandigarh University",
+            "A Memorandum of Understanding, 11.07.2020, б/н, бессрочный"
+        ],
+        [
+            "69",
+            "Индия",
+            "St. Xavier's College for Women",
+            "A Memorandum of Understanding, 11.07.2020, б/н, бессрочный"
+        ],
+        [
+            "70",
+            "Индия",
+            "Maharaja Ranjit Singh Punjab Technical University",
+            "A Memorandum of Understanding, 11.07.2020, б/н, бессрочный"
+        ],
+        [
+            "71",
+            "Индия",
+            "Ajeenkya dy Patil University",
+            "A Memorandum of Understanding, 25.04.2019, б/н, бессрочный"
+        ],
+        [
+            "72",
+            "Индия",
+            "Indira College of Commerce and Science",
+            "A Memorandum of Understanding, 10.05.2019, б/н, бессрочный"
+        ],
+        [
+            "73",
+            "Индия",
+            "Dr. D Y Patil Arts, Commerce and Science College",
+            "A Memorandum of Understanding, 01.07.2019, б/н, бессрочный"
+        ],
+        [
+            "74",
+            "Индия",
+            "MM's Institute og Management Education Research and Training",
+            "A Memorandum of Understanding, 18.07.2019, б/н, бессрочный"
+        ],
+        [
+            "75",
+            "Индия",
+            "Symbiosis Society",
+            "A Memorandum of Understanding, 09.08.2019, б/н, бессрочный"
+        ],
+        [
+            "76",
+            "Индия",
+            "Hong Wen International School",
+            "A Memorandum of Understanding, 16.08.2019, б/н, бессрочный"
+        ],
+        [
+            "77",
+            "Индия",
+            "GLS University",
+            "A Memorandum of Understanding, 02.10.2019, б/н, бессрочный"
+        ],
+        [
+            "78",
+            "Индия",
+            "Aravali College of Engineering and Management",
+            "A Memorandum of Understanding, 22.10.2019, б/н, бессрочный"
+        ],
+        [
+            "79",
+            "Индия",
+            "School of Management, Dwaraka Doss Goverdhan Doss Vaishnav College",
+            "A Memorandum of Understanding, 10.07.2019, б/н, бессрочный"
+        ],
+        [
+            "80",
+            "Индия",
+            "Neotech Technical Campus",
+            "A Memorandum of Understanding, 10.07.2019, б/н, бессрочный"
+        ],
+        [
+            "81",
+            "Индия",
+            "Bharti Vidyapeeth University",
+            "A Memorandum of Understanding, 11.10.2018, б/н, бессрочный"
+        ],
+        [
+            "82",
+            "Индия",
+            "Sandip Institute of Engineering amd Management",
+            "A Memorandum of Understanding, 09.07.2019, б/н, бессрочный"
+        ],
+        [
+            "83",
+            "Индия",
+            "Sandip Institute of Engineering amd Management",
+            "Agreement for Summer School Study Oppurtunity, 09.07.2019, б/н, бессрочный"
+        ],
+        [
+            "84",
+            "Индия",
+            "Tula's Institute the engineering and management",
+            "A Memorandum of Understanding, 09.07.2019, б/н, бессрочный"
+        ],
+        [
+            "85",
+            "Индия",
+            "RIMT University",
+            "A Memorandum of Understanding, 09.07.2019, б/н, бессрочный"
+        ],
+        [
+            "86",
+            "Турция",
+            "Rus Kültür ve Enformasyon Merkezi",
+            "A Memorandum of Understanding, 23.10.2020, б/н, бессрочный"
+        ],
+        [
+            "87",
+            "Северная Македония",
+            "FON University",
+            "A Memorandum of Understanding, 04.07.2019, б/н, бессрочный"
+        ],
+        [
+            "88",
+            "Боливия",
+            "Universidad Privada Boliviana",
+            "A Memorandum of Understanding, 11.07.2019, б/н, бессрочный"
+        ],
+        [
+            "89",
+            "Кипр",
+            "Cyrpus Health and Social Sciences University",
+            "A Memorandum of Understanding, 16.01.2020, б/н, бессрочный"
+        ],
+        [
+            "90",
+            "Перу",
+            "Universidad San Ignacio de Loyola S.A.",
+            "A Memorandum of Understanding, 01.07.2019, б/н, бессрочный"
+        ],
+        [
+            "91",
+            "Перу",
+            "Universidad San Ignacio de Loyola S.A.",
+            "Academic Cooperation Agreement, 01.07.2019, б/н, бессрочный"
+        ],
+        [
+            "92",
+            "Перу",
+            "Universidad Peruana de Ciencias Aplicadas S.A.C.",
+            "A Memorandum of Understanding, 11.07.2022, б/н, бессрочный"
+        ],
+        [
+            "93",
+            "Китай",
+            "Хубэй Колледж Биотехнологий",
+            "Соглашение о сотрудничестве по программе \"Один пояс-один путь\", 11.09.2018, б/н, бессрочный"
+        ],
+        [
+            "94",
+            "Китай",
+            "Shaanxi Technical College of Finance and Economics",
+            "A Memorandum of Understanding, 15.07.2020, б/н, бессрочный"
+        ],
+        [
+            "95",
+            "Греция",
+            "ANKO, International School of Hospitallity",
+            "A Memorandum of Understanding, 11.07.2020, б/н, бессрочный"
+        ],
+        [
+            "96",
+            "Южная Африка",
+            "Southern Africa Future Institute of Innovation and Technology (SAFIIT)",
+            "A Memorandum of Understanding, 15.07.2020, б/н, бессрочный"
+        ],
+        [
+            "97",
+            "Пакистан",
+            "Greenwich University",
+            "A Memorandum of Understanding, 20.06.2019, б/н, бессрочный"
+        ],
+        [
+            "98",
+            "Камерун",
+            "Opuvia Academy",
+            "A Memorandum of Understanding, 05.09.2019, б/н, бессрочный"
+        ],
+        [
+            "99",
+            "Сербия",
+            "Singidunum University",
+            "A Memorandum of Understanding, 31.09.2020, б/н, бессрочный"
+        ],
+        [
+            "100",
+            "Сербия",
+            "Nikola Tesla High School, Novi Pazar, Serbia",
+            "A Memorandum of Understanding, 18.11.2020, б/н, бессрочный"
+        ],
+        [
+            "101",
+            "Сербия",
+            "International University of Novi Pazar",
+            "A Memorandum of Understanding, 12.07.2020, б/н, бессрочный"
+        ],
+        [
+            "102",
+            "Сербия",
+            "Faculty of Philosophy, Nis",
+            "A Memorandum of Understanding, 02.11.2020, б/н, бессрочный"
+        ],
+        [
+            "103",
+            "Сербия",
+            "University of Pristina temporarily settled in Kosovska Mitrovica",
+            "A Memorandum of Understanding, 02.11.2020, б/н, бессрочный"
+        ],
+        [
+            "104",
+            "Косово",
+            "International Business College Mitrovica (IBC-M)",
+            "A Memorandum of Understanding, 20.11.2020, б/н, бессрочный"
+        ],
+        [
+            "105",
+            "Италия",
+            "University Degli Studi Guglielmo Marconi",
+            "Договор о сотрудничестве, 29.10.2020, №37096365\\20, до  29.10.2023"
+        ],
+        [
+            "106",
+            "Китай",
+            "Huazhong Agricultural University",
+            "A Memorandum of Understanding, 27.05.2021, б/н, бессрочный"
+        ],
+        [
+            "107",
+            "Китай",
+            "Сианьский железнодорожный колледж Ци Ли",
+            "A Memorandum of Understanding, 19.03.2021, б/н, бессрочный"
+        ],
+        [
+            "108",
+            "Китай",
+            "ShanDong Vacational College Of Art & Design",
+            "A Memorandum of Understanding, 18.08.2021, б/н, бессрочный"
+        ],
+        [
+            "109",
+            "Китай",
+            "Shenzhen University",
+            "A Memorandum of Understanding, 08.09.2021, б/н, бессрочный"
+        ],
+        [
+            "110",
+            "Китай",
+            "Shandong University of Technology",
+            "A Memorandum of Understanding, 08.09.2021, б/н, бессрочный"
+        ],
+        [
+            "111",
+            "Республика Сербия",
+            "Университет в Новом Пазаре",
+            "На согласовании в Минобре cогласно постановлению Правительства РФ от 13.04.2022 N 645"
+        ],
+        [
+            "112",
+            "Республика Сербия",
+            "Университет в Нише",
+            "На согласовании в Минобре cогласно постановлению Правительства РФ от 13.04.2022 N 645"
+        ]
+    ]
+}
