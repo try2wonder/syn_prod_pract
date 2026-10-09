@@ -109,14 +109,8 @@ with open("tableURLsToSkan.txt", "r", encoding="utf-8") as file:
 
 for url in urlList:
     print(f"Parsing: {url}")
-    
-    # Получаем структурированный словарь данных по всем таблицам страницы
     dataToSave = getTable(url)
-    
-    # Генерируем безопасное имя файла
     safeName = url.replace("https://", "").replace("/", "_").replace(":", "")
-    
-    # Сохраняем в JSON
     with open(f".\\scrapes\\{safeName}.json", "w", encoding="utf-8") as file:
         json.dump(dataToSave, file, ensure_ascii=False, indent=4)
 
