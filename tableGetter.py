@@ -21,7 +21,6 @@ def getTable(url):
 
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Находим ВСЕ таблицы на странице
     tables = soup.find_all('table', {'class': 'table'})
     
     if not tables:
@@ -29,7 +28,6 @@ def getTable(url):
 
     allTablesData = []
 
-    # Перебираем таблицы и нумеруем их
     for index, table in enumerate(tables, start=1):
         try:
             tableHeaders = []
@@ -39,26 +37,22 @@ def getTable(url):
             if not all_rows:
                 continue
 
-            # Безопасно определяем максимальное количество колонок по строкам с td
             first_data_row = next((r for r in all_rows if r.find_all('td')), None)
             if not first_data_row:
                 continue
             maxColumns = len(first_data_row.find_all('td'))
 
-            # 1. Собираем заголовки таблицы (th)
             for row in all_rows[:1]:
                 columns = row.find_all('th')
                 for i in range(min(maxColumns, len(columns))):
                     tableHeaders.append(columns[i].text.strip())
 
-            # 2. Собираем данные из строк таблицы (td)
             for row in all_rows[1:]:
                 columns = row.find_all('td')
                 if not columns:
                     continue
                     
                 rowData = []
-                # Итерируемся по колонкам
                 for i in range(min(maxColumns, len(columns))):
                     cell = columns[i]
                     
@@ -68,14 +62,11 @@ def getTable(url):
                         link_text = link.text.strip()
                         href = link.get('href')
                         
-                        # Собираем абсолютную ссылку, если на сайте она относительная
                         if href.startswith('/'):
                             href = "https://synergyuniversity.ru" + href
                             
-                        # Записываем в формате: Название (Ссылка)
                         cell_value = f"{link_text} ({href})"
                     else:
-                        # Если ссылки нет, берём обычный текст ячейки
                         cell_value = cell.text.strip()
                         
                     rowData.append(cell_value)
@@ -83,7 +74,6 @@ def getTable(url):
                 if rowData:
                     tableData.append(rowData) 
 
-            # Добавляем собранную таблицу в общий список страницы
             allTablesData.append({
                 "table_number": index,
                 "headers": tableHeaders,
