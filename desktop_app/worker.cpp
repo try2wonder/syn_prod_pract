@@ -1,6 +1,6 @@
 #include "worker.h"
 
-Worker::Worker(std::string fio, std::string position, int salary, int firstYear)
+Worker::Worker(const QString& fio, const QString& position, int salary, int firstYear)
     : fio(fio)
     , position(position)
     , salary(salary)
@@ -31,11 +31,11 @@ int Worker::getFirstYear() const
 {
     return firstYear;
 }
-std::string Worker::getFio() const
+QString Worker::getFio() const
 {
     return fio;
 }
-std::string Worker::getPosition() const
+QString Worker::getPosition() const
 {
     return position;
 }
@@ -48,10 +48,14 @@ void Worker::setFirstYear(int newFirstYear){
     firstYear = newFirstYear;
 }
 
-void Worker::setFio(std::string newFio){
+void Worker::setFio(const QString& newFio){
     fio = newFio;
 }
 
-void Worker::setPosition(std::string newPosition){
+void Worker::setPosition(const QString& newPosition){
     position = newPosition;
+}
+
+int Worker::getExperience(int currentYear) const{
+    return currentYear - firstYear;
 }

@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "worker.h"
+#include <vector>
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -19,5 +21,12 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    std::vector<Worker> workers;
+
+private slots:
+    void on_btn_add_clicked();
+    void on_btn_applyFilterShow_clicked();
 };
+
+
 #endif // MAINWINDOW_H
