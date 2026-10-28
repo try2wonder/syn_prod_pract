@@ -4,6 +4,7 @@
 #include "worker.h"
 #include <vector>
 #include <QMainWindow>
+#include <QJsonObject>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -22,10 +23,12 @@ public:
 private:
     Ui::MainWindow *ui;
     std::vector<Worker> workers;
+    QJsonObject employeesData;
 
 private slots:
     void on_btn_add_clicked();
     void on_btn_applyFilterShow_clicked();
+    void on_cb_tables_currentTextChanged(const QString &arg1);
 };
 
 
