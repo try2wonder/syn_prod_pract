@@ -6,12 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>860</width>
-    <height>581</height>
+    <width>991</width>
+    <height>763</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Synergy Monitor</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/new/prefix1/synLogo.png</normaloff>:/new/prefix1/synLogo.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -24,11 +28,11 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tb_task3">
        <attribute name="title">
-        <string>Tab 1</string>
+        <string>Task3</string>
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
@@ -42,6 +46,9 @@
               </property>
              </widget>
             </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="le_fio"/>
+            </item>
             <item row="1" column="0">
              <widget class="QLabel" name="la_position">
               <property name="text">
@@ -49,31 +56,88 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="0">
-             <widget class="QLabel" name="la_salary">
-              <property name="text">
-               <string>Зарплата</string>
-              </property>
-             </widget>
-            </item>
-            <item row="3" column="0">
-             <widget class="QLabel" name="la_firstYear">
-              <property name="text">
-               <string>Год</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1">
-             <widget class="QLineEdit" name="le_fio"/>
-            </item>
-            <item row="2" column="1">
-             <widget class="QLineEdit" name="le_salary"/>
-            </item>
             <item row="1" column="1">
              <widget class="QLineEdit" name="le_position"/>
             </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="la_disciplines">
+              <property name="text">
+               <string>Дисциплины</string>
+              </property>
+             </widget>
+            </item>
             <item row="3" column="1">
-             <widget class="QLineEdit" name="le_firstYear"/>
+             <widget class="QLineEdit" name="le_disciplines"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="la_educationLevel">
+              <property name="text">
+               <string>Образование</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="le_educationLevel"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="la_academicDegree">
+              <property name="text">
+               <string>Ученая степень</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLineEdit" name="le_academicDegree"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="la_academicTitle">
+              <property name="text">
+               <string>Ученое звание</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLineEdit" name="le_academicTitle"/>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="la_qualificationImprovement">
+              <property name="text">
+               <string>Повышение квалификации</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QLineEdit" name="le_qualificationImprovement"/>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="la_professionalRetraining">
+              <property name="text">
+               <string>Переподготовка</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QLineEdit" name="le_professionalRetraining"/>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="la_experience">
+              <property name="text">
+               <string>Опыт</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QLineEdit" name="le_experience"/>
+            </item>
+            <item row="10" column="0">
+             <widget class="QLabel" name="la_educationalPrograms">
+              <property name="text">
+               <string>Образовательные программы</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="1">
+             <widget class="QLineEdit" name="le_educationalPrograms"/>
             </item>
            </layout>
           </item>
@@ -110,16 +174,44 @@
            </widget>
           </item>
           <item>
+           <widget class="QComboBox" name="cb_tablesEmployees"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_loadJsonToWorkers">
+            <property name="text">
+             <string>Загрузить данные из JSON</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QTableWidget" name="tableWidget_workers">
             <property name="columnCount">
-             <number>4</number>
+             <number>10</number>
             </property>
+            <attribute name="horizontalHeaderCascadingSectionResizes">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>200</number>
+            </attribute>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
             <attribute name="verticalHeaderVisible">
              <bool>true</bool>
             </attribute>
             <attribute name="verticalHeaderStretchLastSection">
              <bool>false</bool>
             </attribute>
+            <column/>
+            <column/>
+            <column/>
+            <column/>
+            <column/>
+            <column/>
             <column/>
             <column/>
             <column/>
@@ -132,9 +224,19 @@
       </widget>
       <widget class="QWidget" name="tb_jsonData">
        <attribute name="title">
-        <string>Tab 2</string>
+        <string>Full JSON Data</string>
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QPushButton" name="btn_updateData">
+          <property name="text">
+           <string>Обновить данные с сайта</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="cb_pages"/>
+        </item>
         <item>
          <widget class="QComboBox" name="cb_tables"/>
         </item>
@@ -152,13 +254,15 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>860</width>
+     <width>991</width>
      <height>21</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

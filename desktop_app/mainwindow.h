@@ -5,6 +5,7 @@
 #include <vector>
 #include <QMainWindow>
 #include <QJsonObject>
+#include <QTableWidget>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -23,12 +24,19 @@ public:
 private:
     Ui::MainWindow *ui;
     std::vector<Worker> workers;
-    QJsonObject employeesData;
+    QJsonObject fullJsonData;
 
 private slots:
+    void loadJsonData();
     void on_btn_add_clicked();
     void on_btn_applyFilterShow_clicked();
     void on_cb_tables_currentTextChanged(const QString &arg1);
+    void on_cb_pages_currentTextChanged(const QString &arg1);
+    void on_btn_updateData_clicked();
+    void populateTableFromJson(QTableWidget *table, const QString &pageUrl, const QString &tableName);
+    void populateTableFromJsonEmployees(QTableWidget *table, const QString &pageUrl, const QString &tableName);
+    void on_btn_loadJsonToWorkers_clicked();
+    void on_cb_tablesEmployees_currentTextChanged(const QString &arg1);
 };
 
 
